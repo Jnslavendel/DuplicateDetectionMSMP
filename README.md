@@ -2,9 +2,13 @@
 
 This repository contains the code for research aimed at improving duplicate detection methods for product datasets. By extending the traditional MSMP+ method with alternative hierarchical clustering techniques, the project evaluates the impact of complete and average linkage clustering on precision, recall, and overall performance.
 
+## Author
+- ** [Jens van Drunen]
+- ** [572793fd@eur.nl]
+
 ## Structure of Code
 
-The repository is structured into clearly defined functions to enhance modularity and readability:
+The code is structured in the following blocks of functions:
 
 1. **[Functions] Extract Model Words and Create Binary Product Vectors**  
    Extracts meaningful model words from product titles and attributes, converting them into binary vectors for further processing.
@@ -16,11 +20,11 @@ The repository is structured into clearly defined functions to enhance modularit
    Implements Locality Sensitive Hashing (LSH) to identify candidate duplicate pairs efficiently.
 
 4. **[Functions] Apply MSM to Find Duplicate Products**  
-   Utilizes the Multi-component Similarity Method (MSM) to cluster candidate pairs based on similarity measures.
+   Utilises the Multi-component Similarity Method (MSM) to cluster candidate pairs based on similarity measures.
 
 5. **[Functions] Evaluation Metrics**  
    Includes functions to calculate precision, recall, F1-score, and other metrics for evaluating duplicate detection performance.
 
 ## Usage
 
-To replicate the research, the final cell in the provided script runs the bootstrapping process used in the study. This process applies the MSMP+ method with different hierarchical clustering strategies, optimizes clustering thresholds, and evaluates results. Outputs are automatically exported to an Excel file for analysis.
+To replicate the research, the final cell in the provided script runs the bootstrapping process used in the study. This process applies the MSMP+ method with different hierarchical clustering strategies, optimises clustering thresholds, and evaluates results. Outputs are automatically exported to an Excel file
