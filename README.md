@@ -2,7 +2,7 @@
 
 This repository contains the code for research aimed at improving duplicate detection methods for product datasets. By extending the traditional MSMP+ method with alternative hierarchical clustering techniques, the project evaluates the impact of complete and average linkage clustering on precision, recall, and overall performance.
 
-**Author:** F.J. van Drunen 
+**Author:** Jens van Drunen 
 **Contact:** 572793fd@eur.nl
 
 This repository contains the code for an assignment completed as part of the **Computer Science in Business Analytics** course at **Erasmus University Rotterdam (EUR)**. The research focuses on improving duplicate detection methods for product datasets by extending the traditional MSMP+ method with alternative hierarchical clustering techniques. The project evaluates the impact of complete and average linkage clustering on precision, recall, and overall performance.
