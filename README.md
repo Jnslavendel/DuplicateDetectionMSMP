@@ -1,7 +1,5 @@
 # Duplicate Detection with MSMP+ and Extended Clustering Methods
 
-This repository contains the code for research aimed at improving duplicate detection methods for product datasets. By extending the traditional MSMP+ method with alternative hierarchical clustering techniques, the project evaluates the impact of complete and average linkage clustering on precision, recall, and overall performance.
-
 **Author:** Jens van Drunen 
 **Contact:** 572793fd@eur.nl
 
